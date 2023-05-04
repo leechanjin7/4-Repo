@@ -1,0 +1,112 @@
+/* 전체 포지션 */
+.container {
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+/* 로고 이미지 */
+.container > .member-logo {
+  width: 200px;
+  height: 180px;
+  margin: auto;
+  display: block;
+  background-image: url(/개인/img/snoman\ 무배경.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+/* 로그인 컨텐츠 */
+#login-id {
+  width: 300px;
+  height: 33px;
+  border: 0;
+  outline: 0;
+}
+#login-pw {
+  width: 300px;
+  height: 33px;
+  border: 0;
+  outline: 0;
+}
+.container > .content {
+  display: block;
+  text-align: center;
+}
+.container > .content > .login-text {
+  height: 35px;
+  text-align: center;
+  font-family: "NanumGothic";
+  font-size: 3.5rem;
+}
+.container > .content > form > .login-box1 {
+  width: 650px;
+  height: 250px;
+  margin: 10px auto 5px;
+}
+.container > .content > form > .login-box1 > .login-box2 {
+  /* height: 160px; */
+}
+.container > .content > form > .login-box1 > .login-box2 > .input-id {
+  position: relative;
+  border: 0.5px solid gray;
+  border-radius: 8px 8px 0px 0px;
+  margin: 25px auto 0px;
+  padding: 5px 5px 0px 0px;
+  width: 400px;
+  height: 50px;
+}
+.container > .content > form > .login-box1 > .login-box2 > .input-pw {
+  position: relative;
+  border: 0.5px solid gray;
+  border-radius: 0px 0px 8px 8px;
+  margin: auto;
+  padding: 5px 5px 0px 0px;
+  width: 400px;
+  height: 50px;
+}
+.container > .content > form > .login-box1 > .login-btn-wrap {
+}
+.container > .content > form > .login-box1 > .login-btn-wrap > .login-btn {
+  width: 250px;
+  height: 38px;
+  margin: 15px 0px 0px 0px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  border: 1px solid;
+}
+.container > .content > form > .login-box1 > .join-btn-wrap {
+}
+.container > .content > form > .login-box1 > .join-btn-wrap > .join-btn {
+  width: 250px;
+  height: 38px;
+  margin: 15px 0px 0px 0px;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid lightgray;
+}
+/* 로그인 아래 */
+.container > ul {
+  padding: 15px 15px;
+  margin: 0;
+  display: block;
+  text-align: center;
+}
+.container > ul > li {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+/* 추가할거
+   자식태그 이용해서 아이디찾기 | 비번찾기 | 주문확인 형식 만들기
+   span에 넣어둔 아이콘 위치 조절하기
+   인풋 박스 조절
+   인풋 누르면 겉에 라인 색깔 변하게
+   로그인~아이디 찾기 간격 조절
+   각 파트 폰트 설정하기(크기도)
+   전체적으로 크기를 쫌 더 키워야하나?
+   아 그거 찾아봐야 한다 비밀번호 보이고 안보이고
+   로고 이미지 안뜨는거 확인
+   ---------------------------------------
+   가능한지 모르겠는데 밑에 id pw 주의문구 띄우기*/
