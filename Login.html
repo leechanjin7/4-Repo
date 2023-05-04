@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- 헤더 css -->
+    <link rel="stylesheet" href="./css/header.css" />
+    <!-- 메인 css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- 로그인 css -->
+    <link rel="stylesheet" href="./css/login.css" />
+    <!-- 푸터 css -->
+    <link rel="stylesheet" href="./css/footer.css" />
+    <style></style>
+  </head>
+  <body>
+    <!-- 헤더 -->
+    <div class="wrapper">
+      <header>
+        <div class="top-header">
+          <div class="logo">LOGO</div>
+          <ul>
+            <li><a href="">나의정보</a></li>
+            <li><a href="">고객센터</a></li>
+            <li><a href="">로그아웃</a></li>
+            <li><a href="">기타등등</a></li>
+          </ul>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="">MENU1</a></li>
+            <li><a href="">MENU2</a></li>
+            <li><a href="">MENU3</a></li>
+            <li><a href="">MENU4</a></li>
+            <li><a href="">MENU5</a></li>
+            <li><a href="">MENU6</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <!-- 로그인 -->
+    <div class="container">
+      <div class="member-logo" onclick="location.href='메인페이지'"></div>
+      <div class="content">
+        <div class="login-text">LOGIN or CREATE AN ACCOUNT</div>
+        <form action="" method="post">
+          <div class="login-box1">
+            <div class="login-box2">
+              <div class="input-id">
+                <!-- span 태그 사람 아이콘 -->
+                <input type="text" id="id" placeholder="ID" />
+                <!-- pattern=".+(com|COM)"
+                oninvalid="this.setCustomValidity('이메일 형식으로 입력해주세요.')"
+                required  링크로 넘기면 검사 불가 자바스크립트 사용-->
+                <!-- <span>x표시 눌러서 아이디 지워버리기</span> -->
+                <!-- <span>여기는 x표시 아이콘</span> -->
+              </div>
+              <div class="input-pw">
+                <!-- span 태그 자물쇠 아이콘 -->
+                <input type="password" id="pw" placeholder="PASSWORD" />
+                <!-- pattern="((?=(?:.*[a-z]){3})(?=(?:.*[A-Z]){3})(?=(?:.*[0-9]){3})(?=(?:.*[!@#$%^&*()~]){3})).{10,18}"
+                oninvalid="this.setCustomValidity('영어 소대문자, 숫자, 특수문자를 각 3개이상씩 포함한 10~18자 이내로 입력해주세요.')"
+                required 링크로 넘기면 검사 불가 자바스크립트 이용-->
+                <!-- <span>x표시 눌러서 비번 지워버리기</span> -->
+                <!-- <span>여기는 x표시 아이콘</span> -->
+              </div>
+            </div>
+            <div class="login-btn-wrap">
+              <button
+                type="submit"
+                class="login-btn"
+                onclick="location.href='메인페이지'"
+              >
+                <span>LOGIN</span>
+              </button>
+            </div>
+          </div>
+        </form>
+        <a href="회원가입 링크">JOIN US</a>
+      </div>
+      <ul>
+        <li><a href="링크x">아이디 찾기</a></li>
+        <li><a href="링크x">비밀번호 찾기</a></li>
+        <li><a href="링크x">주문확인</a></li>
+      </ul>
+    </div>
+    <!-- 로그인 자바 스크립트 -->
+    <!-- 푸터 -->
+    <footer></footer>
+  </body>
+</html>
