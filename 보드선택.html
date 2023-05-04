@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            border: 1px solid gray;
+            height: 400px;
+            width: 1200px;
+        }
+        main>section{
+            border: 1px solid gray;
+            height: 400px;
+            display: flex;
+        }
+        main>section>aside{
+            border: 1px solid gray;
+            width: 300px;
+            /* background-color: aqua; */
+        }
+        main>section>aside>.container{
+            /* display: flex; */
+            /* border: 1px solid gray; */
+            margin-top: 348px;
+            align-items: center;
+            /* height: 100px; */
+        }
+        main>section>aside>.container>div{
+            font-size: 12px;
+            /* border: 1px solid gray; */
+            text-align: right;
+        }
+        main>section>article{
+            border: 1px solid gray;
+            flex-grow: 1;
+            /* background-color: orange; */
+        }
+        main>section>article>.container{
+            /* display: flex; */
+            /* border: 1px solid gray; */
+            margin-top: 348px;
+            align-items: center;
+            /* height: 100px; */
+        }
+        main>section>article>.container>div{
+            font-size: 12px;
+            /* border: 1px solid gray; */
+            text-align: right;
+        }
+        main>section>#board1{
+            background-image: url('https://fimafia.co.kr/web/product/medium/202301/d1ce719d601942c2f38fa8cabbeca97b.jpg');
+            background-size: cover;
+        }
+        main>section>#board2{
+            background-image: url('https://fimafia.co.kr/web/product/medium/202211/63c1d587e01dcf04854509987a1ddb9d.jpg');
+            background-size: cover;
+        }
+        main>section>#board3{
+            background-image: url('https://fimafia.co.kr/web/product/medium/202211/e4e8ee566ce0955d6f1f73f516690dfa.jpg');
+            background-size: cover;
+        }
+        main>section>#board4{
+            background-image: url('https://fimafia.co.kr/web/product/medium/202211/181e1f5051390c362523f2193f05cc9e.jpg');
+            background-size: cover;
+        }
+
+    </style>
+
+</head>
+<body>
+    <main>
+        <section>
+            <aside id="board1">
+                <div class="container">
+                    <div>I HATE THINKING SNOWBOARD</div>
+                    <div style="text-decoration: line-through;">850,000원</div>
+                    <div>430,000원</div>
+                </div>
+            </aside>
+            <article id="board2">
+                <div class="container">
+                    <div>MR.FANRASTIC SNOWBOARD</div>
+                    <div style="text-decoration: line-through;">850,000원</div>
+                    <div>756,000원</div>
+                </div>
+            </article>
+            <article id="board3">
+                <div class="container">
+                    <div>TEAM MAFIA SNOWBOARD</div>
+                    <div style="text-decoration: line-through;">850,000원</div>
+                    <div>756,000원</div>
+                </div>
+            </article>
+            <aside id="board4">
+                <div class="container">
+                    <div>SKIPPER SNOWBOARD</div>
+                    <div style="text-decoration: line-through;">850,000원</div>
+                    <div>756,000원</div>
+                </div>
+            </aside>
+        </section>
+    </main>
+</body>
+</html>
