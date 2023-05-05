@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            /* margin: 0px; */
+        }
+
+        body {}
+
+        a {}
+
+        li {
+            list-style: none;
+            padding: 0px;
+        }
+
+        .wrapper {
+            width: 1500px;
+            height: 1200px;
+            border: 1px solid gray;
+            margin:2px;
+        }
+        header{
+            height: 150px;
+            border: 1px solid gray;
+        }
+        main{
+            height: 900px;
+            border: 1px solid gray;
+        }
+        .footer{
+            width: 1500px;
+            height: 150px;
+            border: 1px solid gray;
+            background-color: gray;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+        }
+        .footer>.footer--logo{
+            /* border: 1px solid black; */
+            width: 200px;
+            height: 150px;
+            display: flex;
+            box-sizing: border-box;
+          
+            
+        }
+        .footer>.footer--left{
+            margin: 0px;
+            width: 500px;
+        }
+        .footer>.footer--left>p{
+            margin:10px 0px 0px 0px;
+            width: 500px;
+        }
+        .foote>.footer--right{
+            width: 100%;
+            display: flex;
+            margin-right:0%;
+            /* border: 1px solid black; */
+            justify-content: right;
+        }
+        
+        .footer>.footer--right>.footer--sns{
+            /* border: 1px solid black; */
+            justify-content: space-between;
+            display: flex;
+            margin-top: 40px;
+            margin-right: 0px;
+        }
+        .footer>.footer--right>.footer--sns>ul{
+            justify-content: right;
+            display:flex;
+            width:600px;
+        }
+        .footer>.footer--right>.footer--sns>ul>li{
+            /* border: 1px solid black; */
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            margin-right: 15px;
+            box-sizing: border-box;
+        }
+        .footer>.footer--right>.footer--sns>ul>li>a{
+            display: block;
+            justify-content: right;
+            
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- 헤더 -->
+        <header></header>
+        <!-- 메인 -->
+        <main></main>
+        <!-- 푸터 -->
+        <footer class="footer">
+            <div class="footer--left">
+                <p>회사 소개 | 이용약관 | 개인정보처리방침</p>
+                <p>상호명 : SNOMAN | 대표:4조</p>
+                <p>사업자 등록 번호: 1234567890 | 대구광역시 중아구 중앙대로 10층</p>
+                <p>대표 이메일 : abc@naver.com | 전화번호 : 055-123-1234</p>
+            </div>
+         
+            <div class="footer--right">
+                <div class="footer--sns">
+                    <ul>
+                        <li id="s1"><a href="" onclick="alert('힝 속았지?')"><img src="./img/twitter.svg" style="width: auto;height: 25px;"></a></li>
+                        <li id="s2"><a href="" onclick="alert('갈줄알았지?')"><img src="./img/facebook.svg" style="width: auto;height: 25px;"></a></li>
+                        <li id="s3"><a href="" onclick="alert('어림없지~?')"><img src="./img/instagram.svg" style="width: auto;height: 25px;"></a></li>
+                    </ul>
+                </div>
+            
+            </div>
+            <div class="footer--logo">
+                <img src="./img/KakaoTalk_20230420_151239256.png" alt="">
+            </div>
+        
+        </footer>
+    </div>
+
+</body>
+
+</html>
