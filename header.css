@@ -157,7 +157,7 @@ header > #ham-menu-trigger {
   transform: translateY(-15px) rotate(45deg);
 }
 /* 미디어 쿼리 */
-@media all and (max-width: 480px) {
+@media all and (max-width: 1024px) {
   header > .menu {
     display: none;
   }
